@@ -5,10 +5,10 @@
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- 引入bootstrap -->
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<!-- 引入JQuery  bootstrap.js-->
-	<script src="/js/jquery-3.2.1.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
 	<style type="text/css">
 	body{
 	   background: url(images/a.jpg)repeat;
@@ -28,7 +28,7 @@
 		<div class="row" style="margin-top: 280px; ">
 			<div class="col-md-4"></div>
 			<div class="col-md-4" id="login-box">
-				<form class="form-horizontal" role="form" action="/login" id="from1" method="post">
+				<form class="form-horizontal" role="form" action="/Examination_System/login" id="from1" method="post">
 				  <div class="form-group">
 				    <label for="firstname" class="col-sm-3 control-label">用户id</label>
 				    <div class="col-sm-9">

@@ -154,6 +154,25 @@
 
 
   <build>
+   <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.6</version>
+            <configuration>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
+            </configuration>
+        </plugin>
+         <plugin>  
+            <groupId>org.apache.maven.plugins</groupId>  
+            <artifactId>maven-compiler-plugin</artifactId>  
+            <version>2.3.2</version>  
+            <configuration>  
+                <source>1.7</source>  
+                <target>1.7</target>  
+            </configuration>  
+        </plugin>  
+    </plugins>
     <finalName>Examination_System</finalName>
     <!--在IDEA中maven 默认编译的时候   只搬运src/main/java里面的java文件到target/classes,其他文件会被忽略-->
     <!--这时，我们Mybatis的Mapper.xml文件就不能被加载进去，也就是不能映射成功-->
